@@ -1,5 +1,5 @@
-### Lab 9 - SQL injection attack, querying the database type and version on MySQL and Microsoft  
----
+## Lab 9 - SQL injection attack, querying the database type and version on MySQL and Microsoft  
+
 **SQL injection at** - Product Category in URL  
 **End Goal** - Find database(MySQL,Microsoft) version  
 

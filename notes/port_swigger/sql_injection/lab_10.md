@@ -1,7 +1,7 @@
-### Lab 10 - SQL injection attack, listing the database contents on non-Oracle databases
----
+## Lab 10 - SQL injection attack, listing the database contents on non-Oracle databases
+
 **SQL injection at** - Product category in URL  
-  
+
 **End Goals :-**  
 - Find the tables in the data base  
 - Find the columns in that table  
