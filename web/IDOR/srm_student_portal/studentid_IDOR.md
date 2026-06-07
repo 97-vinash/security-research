@@ -15,8 +15,8 @@ The two vulnerabilities differ in severity:
 ### **Vulnerability 1 — Unauthenticated IDOR on Provisional Allotment Letter Endpoint**
 
 **Endpoint:**
-```
-GET https://sp.srmist.edu.in/srmiststudentportal/students/report/provisionalAdmitCardPrinting.jsp
+```http
+https://sp.srmist.edu.in/srmiststudentportal/students/report/provisionalAdmitCardPrinting.jsp?reportid=1&StudentId=607794&OfficeId=9
 ```
  
 **How to reach this URL in the portal:**
@@ -82,8 +82,8 @@ This is a **critical** vulnerability. Because no authentication is required, any
  
 **Endpoint:**
  
-```
-GET https://sp.srmist.edu.in/srmiststudentportal/students/report/studentFeereceiptPrint.jsp
+```http
+https://sp.srmist.edu.in/srmiststudentportal/students/report/studentFeereceiptPrint.jsp?reportid=2&StudentId=607794&OfficeId=9
 ```
  
 **How to reach this URL in the portal:**
