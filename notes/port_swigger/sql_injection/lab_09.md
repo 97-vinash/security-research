@@ -4,7 +4,7 @@
 **End Goal** - Find database(MySQL,Microsoft) version  
 
 ---
-> ### Analysis:
+### Analysis:
 - `'` gives error means vulnerable to sqli.
 
 - `' UNION SELECT @@version--` didn't work (if i want the database to return something to me, i should know how i will make it return it into a string, so i should know what are the columns that have string in it).

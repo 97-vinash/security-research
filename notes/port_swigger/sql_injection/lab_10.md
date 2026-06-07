@@ -9,7 +9,7 @@
 - Find admin's username and password
 
 ---
-> ### Analysis:
+### Analysis:
 - `'--` works means vulnerable to sqli.
 
 - `' UNION SELECT * FROM information_schema.tables--` gives *500 internal server error*  
