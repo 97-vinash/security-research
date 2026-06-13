@@ -16,15 +16,15 @@ This means any session ID that existed before authentication remains fully valid
 ### PoC - Proof of Concept
 - Two different incognito browser(brave, firefox) sessions, They both have different `JSESSIONID` before Login.  
 
-    ![](/docs/assets/7.png)
+    ![](/assets/7.png)
 
 - Step 1 - Note the assigned pre-login `JSESSIONID` in the first browser  
     
-    ![](/docs/assets/8.png)
+    ![](/assets/8.png)
 
 - Step 2 - Log in and check the `JSESSIONID` again.  
     
-    ![](/docs/assets/9.png)
+    ![](/assets/9.png)
 After a successful login, inspect the session cookie. It is **unchanged**:
 
     ```
@@ -34,15 +34,15 @@ After a successful login, inspect the session cookie. It is **unchanged**:
 
 - Step 3 — Manually paste the same `JSESSIONID` in the second browser.  
     
-    ![](/docs/assets/10.png)
+    ![](/assets/10.png)
 
     Now navigate to an authenticated page `/template/HRDSystem.jsp` by changing the path.  
     
-    ![](/docs/assets/11.png)  
+    ![](/assets/11.png)  
 
 - **Result:** The second browser loads the authenticated session — no credentials needed.  
     
-    ![](/docs/assets/12.png) 
+    ![](/assets/12.png) 
 
 
 ### Step 4 — Verify logout behaviour
