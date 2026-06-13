@@ -22,7 +22,7 @@ https://sp.srmist.edu.in/srmiststudentportal/students/report/provisionalAdmitCar
 **How to reach this URL in the portal:**
 > Student Portal → Finance Details → Provisional Allotment Letter (Download)
  
-![PAL](images/pal.png)
+![PAL](/docs/assets/pal.png)
 
 ### What's Wrong
  
@@ -38,15 +38,15 @@ This endpoint returns a student's **Provisional Allotment Letter (PAL)** PDF bas
  
 ### Proof of Concept
  
-![PAL-Doc](images/palcert.png)
+![PAL-Doc](/docs/assets/palcert.png)
 This is the Provisional Allotment Letter Document, by changing the `StudentId` we can see other students PAL.  
 
 .  
-![fee-receipt](images/fee_receipt.png)
+![fee-receipt](/docs/assets/fee_receipt.png)
 This is the Fee Receipt Document, we get this by changing the `reportid=2` for any student.  
   
 .
-![curl](images/curl_output.png)
+![curl](/docs/assets/curl_output.png)
 Direct unauthenticated `curl` request successfully returned a sensitive student PDF document with HTTP 200 response, confirming the endpoint is publicly accessible without login.
 
 The following request returns a real student's PDF document **with no cookies, no session, and no authentication headers**:
@@ -89,7 +89,7 @@ https://sp.srmist.edu.in/srmiststudentportal/students/report/studentFeereceiptPr
 **How to reach this URL in the portal:**
 > Student Portal → Finance Details → Print Admission Fee Receipt
  
-![fee-button](images/fee_button.png)
+![fee-button](/docs/assets/fee_button.png)
 
 
 ### What's Wrong
@@ -106,7 +106,7 @@ This endpoint does require a valid login session, but it does **not verify that 
  
 ### Proof of Concept
  
-![fee-doc](images/feedoc.png)
+![fee-doc](/docs/assets/feedoc.png)
 This is the Fee Receipt Document we get, Note that it is the same document as before but this time accessed through the `studentFeereceiptPrint.jsp` endpoint.
 
 ### What the Documents Expose
