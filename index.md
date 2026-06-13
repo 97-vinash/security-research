@@ -8,7 +8,6 @@
 <p align="center">
   <a href="mailto:97.vinash@gmail.com"><img src="https://img.shields.io/badge/Email-97.vinash%40gmail.com-0ea5e9?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/avinash-shankar-643809249/"><img src="https://img.shields.io/badge/LinkedIn-Avinash%20Shankar-0ea5e9?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://97-vinash.github.io/"><img src="https://img.shields.io/badge/Blog-97--vinash-0ea5e9?style=for-the-badge&logo=hashnode&logoColor=white"/></a>
 </p>
 
 <!-- ====== TERMINAL-TYPING EFFECT ====== -->
@@ -21,13 +20,13 @@
 
 ---
 
-### 🎯 Snapshot
+### Snapshot
 - **CGPA 8.9** (SRM University of Science and Technology, Kattankulathur)    
-- 🇮🇳 Based in India • Open to **SOC Analyst / Pentesting / Application-Security** roles
+- 🇮🇳 Based in India • Open to **Application-Security / Pentesting** roles
 
 ---
 
-### 🧰 Tech I use
+### Tech I use
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,cpp,bash,python,mysql,linux,git&perline=7" />
 </p>
@@ -42,7 +41,7 @@
 
 
 
-## 🎓 Education
+### Education
 - **SRM University** — *B.Tech in CSE with Specialization in Cybersecurity* · **CGPA: 8.9** *(2023–2027)*
 
 ---
