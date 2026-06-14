@@ -535,7 +535,7 @@
     async function getDirectoryChildren(folderPath) {
         if (folderCache.has(folderPath)) return folderCache.get(folderPath);
         const items = await fetchGitHubContents(folderPath);
-        const folders = items.filter(i => i.type === 'dir').sort((a,b) => a.name.localeCompare(b.name));
+        const folders = items.filter(i => i.type === 'dir' && i.name !== 'assets').sort((a,b) => a.name.localeCompare(b.name));
         const mdFiles = items.filter(i => i.type === 'file' && i.name.endsWith('.md')).sort((a,b) => a.name.localeCompare(b.name));
         const merged = [...folders, ...mdFiles];
         folderCache.set(folderPath, merged);
@@ -590,9 +590,15 @@
         const container = document.getElementById('fileTreeContainer');
         try {
             const rootItems = await fetchGitHubContents("");
-            const folders = rootItems.filter(i => i.type === 'dir').sort((a,b) => a.name.localeCompare(b.name));
-            const mdFiles = rootItems.filter(i => i.type === 'file' && i.name.endsWith('.md')).sort((a,b) => a.name.localeCompare(b.name));
-            const rootNodes = [...folders, ...mdFiles];
+            const folders = rootItems.filter(i => i.type === 'dir' && i.name !== 'assets').sort((a,b) => a.name.localeCompare(b.name));
+            let mdFiles = rootItems.filter(i => i.type === 'file' && i.name.endsWith('.md'));
+            // Sort mdFiles to put home.md first, then the rest alphabetically
+            mdFiles.sort((a, b) => {
+                if (a.name === 'home.md') return -1;
+                if (b.name === 'home.md') return 1;
+                return a.name.localeCompare(b.name);
+            });
+            const rootNodes = [...mdFiles, ...folders];
             folderCache.set('', rootNodes);
 
             const ul = document.createElement('ul');
