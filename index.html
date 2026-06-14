@@ -474,15 +474,9 @@
             codeBlocks.forEach(block => hljs.highlightElement(block));
             dirtyHtml = tempDiv.innerHTML;
 
-            let cleanHtml = DOMPurify.sanitize(dirtyHtml);
-
             // If the current file is home.md, remove all <hr> elements (horizontal rules)
-            if (filePath === 'home.md') {
-                const tempDiv = document.createElement('div');
-                tempDiv.innerHTML = cleanHtml;
-                tempDiv.querySelectorAll('hr').forEach(hr => hr.remove());
-                cleanHtml = tempDiv.innerHTML;
-            }
+            let cleanHtml = DOMPurify.sanitize(dirtyHtml);
+            mdContainer.innerHTML = cleanHtml;
 
             mdContainer.innerHTML = cleanHtml;
 
