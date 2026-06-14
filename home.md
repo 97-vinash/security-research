@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  Web Security | Bug Bounty | Penetration Testing | Exploit Development
+  Web Security  -  Bug Bounty  -  Penetration Testing  -  Exploit Development
 </p>
 
 <p align="center">
