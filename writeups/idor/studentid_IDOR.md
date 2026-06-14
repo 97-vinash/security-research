@@ -1,4 +1,4 @@
-# **SRM STUDENT PORTAL - Unauthenticated IDOR / Sensitive Document Disclosure**
+## **SRM STUDENT PORTAL - Unauthenticated IDOR / Sensitive Document Disclosure**
 
 ### **Overview**
  

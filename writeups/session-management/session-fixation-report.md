@@ -1,4 +1,4 @@
-# Vulnerability Report: Session Identifier Not Regenerated After Authentication
+## Vulnerability Report: Session Identifier Not Regenerated After Authentication
 
 **Target:** `https://sp.srmist.edu.in/`  
 **Vulnerability Type:** Session Management Weakness / Potential Session Fixation  

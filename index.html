@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>vinash · security notes & writeups</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/monokai-sublime.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark-dimmed.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
@@ -27,7 +27,7 @@
         /* ========= HACKER NAVBAR (full-width black) ========= */
         .navbar {
             background: #050608;
-            border-bottom: 1px solid #00ff41;
+            border-bottom: 2px solid #8bc34a;
             height: 64px;
             flex-shrink: 0;
             display: flex;
@@ -54,15 +54,15 @@
         .nav-name {
             font-weight: 700;
             font-size: 1.5rem;
-            color: #00ff41;
+            color: #8bc34a;
             letter-spacing: -0.2px;
-            text-shadow: 0 0 3px #00ff41;
+            text-shadow: 0 0 3px #8bc34a;
             background: none;
         }
         .motto {
             font-size: 0.85rem;
-            color: #88ff88;
-            border-left: 2px solid #00ff41;
+            color: #8bc34a;        /* softer, more natural green */
+            border-left: 2px solid #8bc34a;
             padding-left: 12px;
             font-style: italic;
             font-family: monospace;
@@ -95,11 +95,11 @@
             font-size: 0.65rem;
             text-transform: uppercase;
             font-weight: 600;
-            color: #00ff41;
+            color: #8bc34a;
             margin-bottom: 1rem;
             padding-left: 8px;
             letter-spacing: 1px;
-            border-left: 2px solid #00ff41;
+            border-left: 2px solid #8bc34a;
         }
         .file-tree {
             font-size: 0.8rem;
@@ -122,15 +122,15 @@
             word-break: break-word;
         }
         .tree-node-content:hover {
-            background: #1a1e26;
-            color: #00ff41;
-            text-shadow: 0 0 2px #00ff41;
+            background: #1a2416;
+            color: #7fdb6a;
+            text-shadow: 0 0 2px #7fdb6a;
         }
         .tree-node-content.active {
-            background: #1a1e26;
+            background: #1a2416;
             font-weight: 500;
-            color: #00ff41;
-            border-left: 2px solid #00ff41;
+            color: #7fdb6a;
+            border-left: 2px solid #7fdb6a;
         }
         .folder-icon, .file-icon {
             font-size: 1rem;
@@ -157,6 +157,7 @@
         }
 
         /* MAIN CONTENT (black card with neon border) */
+        /* MAIN CONTENT – READABLE & CLEAN */
         .main-content {
             background: #0c0e12;
             border-radius: 16px;
@@ -169,43 +170,42 @@
             max-width: 880px;
             margin: 0 auto;
             line-height: 1.7;
-            font-size: 15px;
-            font-family: 'Fira Code', 'Cascadia Code', 'Courier New', monospace;
+            font-size: 16px;
+            font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             color: #d0d0d0;
         }
         .markdown-body h1 {
             font-size: 2em;
             margin: 0.67em 0 0.5em;
-            font-weight: 600;
+            font-weight: 800;
             border-bottom: 1px solid #2c3e50;
             padding-bottom: 0.3em;
-            color: #00ff41;
-            text-shadow: 0 0 1px #00ff41;
+            color: #ffffff;
         }
         .markdown-body h2 {
             font-size: 1.5em;
             margin: 1em 0 0.5em;
-            font-weight: 600;
+            font-weight: 700;
             border-bottom: 1px solid #2c3e50;
             padding-bottom: 0.3em;
-            color: #88ff88;
+            color: #ffffff;
         }
         .markdown-body h3 {
             font-size: 1.25em;
             margin: 0.8em 0 0.4em;
-            font-weight: 600;
-            color: #b0ffb0;
+            font-weight: 700;
+            color: #f0f0f0;
         }
         .markdown-body p {
             margin: 1em 0;
         }
         .markdown-body a {
-            color: #00ff41;
+            color: #7fdb6a;
             text-decoration: none;
-            border-bottom: 1px dashed #00ff41;
+            border-bottom: 1px dashed #7fdb6a;
         }
         .markdown-body a:hover {
-            text-shadow: 0 0 3px #00ff41;
+            text-shadow: 0 0 2px #7fdb6a;
         }
         .markdown-body img {
             max-width: 100%;
@@ -224,13 +224,15 @@
         }
         .markdown-body code {
             font-family: 'Fira Code', 'Cascadia Code', monospace;
-            font-size: 0.85em;
+            font-size: 0.9em;
         }
+        /* inline code – muted green, less flashy */
         .markdown-body code:not(pre code) {
-            background-color: #1a1e26;
+            background-color: #1a262f;   /* dark blue‑grey background */
             padding: 0.2em 0.4em;
             border-radius: 6px;
-            color: #00ff41;
+            color: #8eb758;              /* soft blue, easy on eyes */
+            font-weight: normal;
         }
         .markdown-body ul, .markdown-body ol {
             margin: 0.8em 0;
@@ -240,7 +242,7 @@
             margin: 0.3em 0;
         }
         .markdown-body blockquote {
-            border-left: 4px solid #00ff41;
+            border-left: 4px solid #7fdb6a;
             margin: 1em 0;
             padding: 0.5em 1em;
             background: #111317;
@@ -261,7 +263,7 @@
         .markdown-body th {
             background: #1a1e26;
             font-weight: 600;
-            color: #00ff41;
+            color: #9ccc7c;
         }
         .loading-placeholder {
             text-align: center;
@@ -281,7 +283,7 @@
             font-size: 0.65rem;
             font-weight: 600;
             text-transform: uppercase;
-            color: #00ff41;
+            color: #8bc34a;
             margin-bottom: 1.2rem;
             border-bottom: 1px solid #2c3e50;
             padding-bottom: 4px;
@@ -304,8 +306,8 @@
             font-family: monospace;
         }
         .toc-link:hover {
-            background: #1a1e26;
-            color: #00ff41;
+            background: #1a2416;
+            color: #7fdb6a;
         }
         .toc-link.h2 {
             padding-left: 12px;
@@ -472,7 +474,16 @@
             codeBlocks.forEach(block => hljs.highlightElement(block));
             dirtyHtml = tempDiv.innerHTML;
 
-            const cleanHtml = DOMPurify.sanitize(dirtyHtml);
+            let cleanHtml = DOMPurify.sanitize(dirtyHtml);
+
+            // If the current file is home.md, remove all <hr> elements (horizontal rules)
+            if (filePath === 'home.md') {
+                const tempDiv = document.createElement('div');
+                tempDiv.innerHTML = cleanHtml;
+                tempDiv.querySelectorAll('hr').forEach(hr => hr.remove());
+                cleanHtml = tempDiv.innerHTML;
+            }
+
             mdContainer.innerHTML = cleanHtml;
 
             if (tocItems.length === 0) {
