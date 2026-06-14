@@ -1,8 +1,8 @@
 <p align="center">
-  <strong style="color: #8bc34a; font-size: 2.2em;">Avinash Shankar</strong>
+  <strong><font size="8">Avinash Shankar</font></strong><br>
 </p>
 
-<p align="center" style="color: #8bc34a; font-size: 1.1em;">
+<p align="center">
   Web Security | Bug Bounty | Penetration Testing | Exploit Development
 </p>
 
