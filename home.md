@@ -1,58 +1,32 @@
-# Avinash Shankar
+<p align="center">
+  <strong><font size="6">Avinash Shankar</font></strong><br>
+  <em>B.Tech | CSE – Specialization in Cybersecurity</em>
+</p>
 
-*B.Tech | CSE – Specialization in Cybersecurity*
+<p align="center">
+  Web Security | Bug Bounty | Penetration Testing | Exploit Development
+</p>
 
----
-
-**Penetration Testing | Exploit Development**
-
----
-
-## Contact
-
-- Email: [97.vinash@gmail.com](mailto:97.vinash@gmail.com)
-- LinkedIn: [Avinash Shankar](https://www.linkedin.com/in/avinash-shankar-643809249/)
-- Blog: [97-vinash.github.io](https://97-vinash.github.io)
+<p align="center">
+  📧 <a href="mailto:97.vinash@gmail.com">97.vinash@gmail.com</a> &nbsp;|&nbsp;
+  🔗 <a href="https://www.linkedin.com/in/avinash-shankar-643809249/">LinkedIn</a> &nbsp;
+</p>
 
 ---
 
-## Areas of Interest
-
-- Web Security & Bug Bounty
-- Penetration Testing
-- Exploit Development
+### Education
+- **SRM University** – B.Tech in CSE with Cybersecurity (2023–2027) · **CGPA: 8.9**
 
 ---
 
-## Snapshot
-
-- **CGPA 8.8** – SRM Institute of Science and Technology, Kattankulathur
-- Based in India – Open to **Application Security / Pentesting** roles
+### Experience
+- **Intern** – Indian Cyber Crime Coordination Center (i4c), Ministry of Home Affairs, Government of India
 
 ---
 
-## Tech Stack
+### Tech Stack
+- `C` `C++` `Bash` `Python` `MySQL` `Linux` `Git`
 
-`C` `C++` `Bash` `Python` `MySQL` `Linux` `Git`
 
----
 
-## Experience
 
-- Intern – **Indian Cyber Crime Coordination Center (i4c)**, Ministry of Home Affairs, Government of India
-
----
-
-## Education
-
-- **SRM University** – B.Tech in CSE with Cybersecurity (2023–2027) · CGPA: 8.8
-
----
-
-## Certifications (selected)
-
-- Oracle 1Z0-006, 1Z0-922
-- Microsoft AZ-900, DP-900
-- Cisco – Intro to Data Science
-- Deloitte – Data Analytics Job Simulation
-- ICTIS 2025 presentation

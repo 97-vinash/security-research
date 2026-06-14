@@ -643,7 +643,7 @@
             const path = decodeURIComponent(hash.slice(7));
             if (path && path.endsWith('.md')) await loadAndSelectFile(path);
         } else {
-            try { await loadAndSelectFile('index.md'); } catch(e) { /* no index.md */ }
+            try { await loadAndSelectFile('home.md'); } catch(e) { /* no home.md */ }
         }
     }
 
