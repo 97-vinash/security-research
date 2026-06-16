@@ -21,6 +21,8 @@ i tried "at" in the username and a random password and now the response says `in
   
 - we got a status code 302 on the the payload called "monkey", that means that we got a sucessful login and it did a temporary redirect to the user dashboard.  
 
-- Now we know  
+Now we know  
 -> Username - `at`  
--> Password - `monkey`
+-> Password - `monkey`  
+  
+- Login using these credentials.

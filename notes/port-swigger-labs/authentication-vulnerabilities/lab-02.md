@@ -29,7 +29,7 @@ On the attack tab that appeared after starting the attack,
 -> Scroll the response and hilight the exact response you get `Invalid username or password.`  
 -> click `Ok`  
 
-on the attack tab, we can see a new column that has our response we hilighted, now sort it, to see the if some other response is a little bit different.  
+on the attack tab, we can see a new column that has our response we highlighted, now sort it, to see the if some other response is a little bit different.  
   
 -> we got `Invalid username or password` this, it doesn't have a `.` at the last and it's for the payload - `azureuser`  
 
@@ -41,9 +41,11 @@ now we'll do normal password brute forcing like before to see if we are getting 
 
 So, we have  
 -> username - `azureuser`  
--> password - `121212`
+-> password - `121212`  
+  
+- Login using these credentials.
 
----
+---  
 Another Method for username enemuration is -
 ```
 if you have Burp Professional, in the attack tab that shows the result, you can filter using the response and do a negative search, means it will show all the response that is different than the response you pasted in some way.

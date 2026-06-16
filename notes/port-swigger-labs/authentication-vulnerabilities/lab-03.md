@@ -47,4 +47,4 @@ So, we have
 -> username - `agenda`  
 -> password - `maggie`  
 
-- login using these credentials.
+- Login using these credentials.
