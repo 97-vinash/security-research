@@ -1,4 +1,4 @@
-## Lab 4 - Username enumeration via account lock
+## Lab 5 - Username enumeration via account lock
 **End Goal** - Enumerate a valid username, AND brute-force that user's password.  
 
 ---
@@ -20,14 +20,12 @@ Note:- The password payload position is after the password value.
 ```
 user1, null1
 user2, null1
-.
-.
+...
 user101, null1
-----------------
+
 user1, null2
 user2, null2
-.
-.
+...
 user101, null2
 ```  
 first the whole list's username is checked for wrong password then again 2nd time the whole list is checked, it will go like this for 5 times, i thought it will send 5 requests for each user like this:

@@ -3,7 +3,7 @@
 **SQL injection at** - Product category in URL  
 
 **End Goals :-**  
-- Find the tables in the data base  
+- Find the tables in the database  
 - Find the columns in that table  
 - Find the username and password columns  
 - Find admin's username and password
