@@ -4,6 +4,7 @@ So, this is what used to come to mind when I thought about **DNS** Servers.
 - Domain name systems just holds the domain name and it's corresponding IP. And when i search a site's name, my browser sends a req to the DNS server to find out it's ip address and then give the ip to browser so it makes the request to that IP.   
 
 - I knew that there were many DNS servers, but i didn't knew exactly what's the use of different DNS servers and what if the domain i am looking for is not in the DNS server where my browser is trying to find.  
+  
 ---  
   
 ### So after some research, here is the rough idea of how it works.  
@@ -47,7 +48,8 @@ M.root-servers.net
     ns2.example-dns.com
   
 -> Then Google just asks them, What is the IP address of example.com?, and because they are the authoritative server, means They contain the official DNS records created by whoever owns the domain. so they do have the IP and they reply with the Ip of the domain example.com.  
-- 93.184.216.34
+- 93.184.216.34  
+
 ---
 DNS is organized like a hierarchy (a tree), So  
   
