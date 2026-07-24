@@ -11,21 +11,21 @@ Given:
   
 - So, i went to login page and pressed `Ctrl + U` to open the page source, there i see this Javascript code.
   
-```js
-<script>
-var isAdmin = false;
-if (isAdmin) {
-   var topLinksTag = document.getElementsByClassName("top-links")[0];
-   var adminPanelTag = document.createElement('a');
-   adminPanelTag.setAttribute('href', '/admin-odh3to');
-   adminPanelTag.innerText = 'Admin panel';
-   topLinksTag.append(adminPanelTag);
-   var pTag = document.createElement('p');
-   pTag.innerText = '|';
-   topLinksTag.appendChild(pTag);
-}
-</script>
-```  
+   ```js
+   <script>
+      var isAdmin = false;
+      if (isAdmin) {
+         var topLinksTag = document.getElementsByClassName("top-links")[0];
+         var adminPanelTag = document.createElement('a');
+         adminPanelTag.setAttribute('href', '/admin-odh3to');
+         adminPanelTag.innerText = 'Admin panel';
+         topLinksTag.append(adminPanelTag);
+         var pTag = document.createElement('p');
+         pTag.innerText = '|';
+         topLinksTag.appendChild(pTag);
+      }
+   </script>
+   ```  
   
 - Here it is given which link/path should be available to the user if they are the Admin.  
   

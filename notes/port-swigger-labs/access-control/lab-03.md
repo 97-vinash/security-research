@@ -23,7 +23,7 @@ Given:
   
 ---  
   
-What should have happen insted?  
+What should have happened insted?  
   
 - The server should have just given me a session cookie like this `session=dasfog088asd`, and when the req was sent to the server, it should have checked that:  
   

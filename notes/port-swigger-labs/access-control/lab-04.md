@@ -1,4 +1,4 @@
-## Lab 3 - User role can be modified in user profile  
+## Lab 4 - User role can be modified in user profile  
 **End Goal** - Access Admin Panel and Delete the user called Carlos.  
   
 ---
