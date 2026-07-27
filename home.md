@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  Web Security  -  Bug Bounty  -  Penetration Testing  -  Exploit Development
+  Web Security  -  Bug Bounty  -  Penetration Testing
 </p>
 
 <p align="center">
@@ -12,16 +12,9 @@
 </p>
 
 ---
+  
+Hi, I'm a 21 year old cybersecurity researcher, with a curious mind and deep interest in cybersecurity, digital investigations and Ai.  
+  
+Outside of Studying, I like to watch anime, read books, exploring different fields in security. I have done internship under Indian Cyber Crime Coordination Center **I4C**, Under Ministry of Home Affairs. And i have found bugs in **IIT Kharagpur**, **Gujarat University**, **SRM** & **multiple others** that have been verified and acknowledged.  
 
-### Education
-- **SRM University** – B.Tech in CSE with Cybersecurity (2023–2027) · **CGPA: 8.8**
-
----
-
-### Experience
-- **Intern** – Indian Cyber Crime Coordination Center (i4c), Ministry of Home Affairs, Government of India
-
----
-
-### Tech Stack
-- `Linux` `Burp Suite` `MySQL` `Bash` `Python` `Git` `C` `C++`
+I'm open to new roles, collaborations, and opportunities.
