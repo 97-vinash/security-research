@@ -1,9 +1,13 @@
 <p align="center">
+  <img src="assets/pfp.png" style="width: 150px; height: 150px; border-radius: 50%; border: 4px solid white; object-fit: cover;">
+</p>
+
+<p align="center">
   <strong><font size="8">Avinash Shankar</font></strong><br>
 </p>
 
 <p align="center">
-  Web Security  -  Bug Bounty  -  Penetration Testing
+  <font size="3">Web Security  -  Bug Bounty  -  Penetration Testing</font>
 </p>
 
 <p align="center">
@@ -12,9 +16,13 @@
 </p>
 
 ---
-  
-### Hi, I'm a 21 year old cybersecurity researcher, with a curious mind and deep interest in cybersecurity, digital investigations and Ai.  
-  
-### Outside of Studying, I like to watch anime, read books, exploring different fields in security. I have done internship under Indian Cyber Crime Coordination Center **I4C**, Under Ministry of Home Affairs. And i have found bugs in **IIT Kharagpur**, **Gujarat University**, **SRM** & **multiple others** that have been verified and acknowledged.  
 
-### I'm open to new roles, collaborations, and opportunities.
+<font size="4">
+Hi, I'm a 21 year old cybersecurity researcher, with a curious mind and deep interest in cybersecurity, digital investigations and Ai.
+
+<br>
+Outside of Studying, I like to watch anime, read books, exploring different fields in security. I have done internship under Indian Cyber Crime Coordination Center <strong>I4C</strong>, Under Ministry of Home Affairs. And i have found bugs in <strong>IIT Kharagpur</strong>, <strong>Gujarat University</strong>, <strong>SRM</strong> & <strong>multiple others</strong> that have been verified and acknowledged.
+
+<br>
+I'm open to new roles, collaborations, and opportunities.
+</font>

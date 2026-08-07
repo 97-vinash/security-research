@@ -37,15 +37,17 @@ Given:
 - Then i just sent that response to the browser and i tried to delete the user called Carlos, and it says access denied, because we have to give that `X-Original-URL:` header again for this request of deleting a user.  
   
 - The req looked like this `GET /admin/delete?username=carlos`, so again i did:  
-   ```http
-    GET /
+
+    ```http
+    GET / HTTP/2
     X-Original-Url: /admin/delete?username=carlos
     ```  
     but this time the response says `missing parameter 'username'` but i already gave the parameter username as carlos.  
       
 - But we had to give the parameter in the `GET req itself`, even if we give the path in the `X-Original-Url:`, so now i send this req:  
-   ```http
-    GET /?username=carlos
+   
+    ```http
+    GET /?username=carlos HTTP/2
     X-Original-Url: /admin/delete
     ```  
 
